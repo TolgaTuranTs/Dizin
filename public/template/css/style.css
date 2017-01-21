@@ -1,0 +1,28 @@
+body{background-color:#eef2f3}
+/* Header Alanı */
+.menu-alan{ border:none;border-radius:0}
+/* Sidebar Alanı */
+.son-eklenenler li a{ color:#333;text-decoration: none}
+	.son-eklenenler li a:hover{font-weight: 700}
+.kategori li{border:none;text-align: left;min-width: 260px;width: 260px;list-style:none;float:left}
+	.kategori li:hover{background-color:#f5f5f5}
+	.kategori li a{color:#686868}
+	.kategori li i{color:#ca0000;font-weight:bold}
+/* İçerik Alanı */
+.panel-heading{background-color:#bf3b3b!important}
+.panel-primary {border-color: #bf3b3b!important}
+.panel-body {padding: 0 !important}
+.link li{border:none;text-align: left;width:100%;list-style:none;float:left;margin-top:5px;padding:7px}
+	.link li a{color:#686868}
+	.link li i{color:#ca0000;font-weight:bold}
+	.link li .badge{background:none;font-weight:700;border:1px solid #333}
+/* Footer Alanı */
+.footer { background:#222222;width:100%; float:left;color:white; font-family:arial;}
+	.footer #kutu b {font-size:14px}
+	.footer_container{ margin:30px auto}
+	.footer ul {list-style-type:none;margin:17px 0;padding:0px}
+	#kutu {width:auto; float:left}
+	.footer ul li {float:left;font-family:tahoma; font-size:12px; margin-bottom:8px; clear:left; color:#949798}
+	.footer ul li a{color:#949798}
+	.footer ul li i{font-weight:700;font-size:32px;color:white;background-color:#222222;border:none}
+	#kutu:last-child li {float:left;clear:none;margin-right:10px}
