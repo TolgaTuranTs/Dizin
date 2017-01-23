@@ -69,7 +69,7 @@ Class Kategori extends CI_Controller{
                     </script>';
                 }
             }
-        $this->load->view('Cms/Kategoriler/ekle_view',$data);
+        $this->load->view('Cms/kategoriler/ekle_view');
         $this->load->view('Cms/Static/footer_view');
     }
 
