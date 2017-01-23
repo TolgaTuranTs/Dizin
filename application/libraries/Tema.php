@@ -54,6 +54,7 @@ Class tema {
         $ci->db->select('*');
         $ci->db->from('dizinler');
         $ci->db->order_by('dizin_id','DESC');
+		$ci->db->where('dizin_id',1);
         $ci->db->limit(6);
         $sonuc = $ci->db->get()->result_array();
         if($sonuc){

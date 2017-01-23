@@ -41,3 +41,7 @@ Admin Teması : Uplon
 
 Localde çalışıpta site de çalışmama durumu mevcuttu. Sorun Düzeltildi.
 Codeigneter 3. versiyonun da Controller ve Model Dosyalarının baş harfleri büyük olmalıydı. (Düzeltildi)
+
+<b>Güncelleme 2 ;</b>
+application/libraries/tema.php güncellendi. En son eklenenler kısmında onaysızlar da listeleniyordu , düzeltildi.
+Daha önce indirip kuranlar sadece tema.php indirip yüklerlerse sorun ortadan kalkar.
