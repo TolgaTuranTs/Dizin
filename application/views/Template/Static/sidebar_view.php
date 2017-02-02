@@ -10,14 +10,17 @@
             <div class="panel panel-primary" style="margin-bottom:20px">
                 <div class="panel-heading">En Son Eklenen Siteler</div>
                 <ul class="list-group son-eklenenler">
-                    <?php foreach($enson as $listele){ ?>
+                    <?php 
+						if(!empty($enson)){
+						foreach($enson as $listele){ 
+					?>
                     <li class="list-group-item">
                         <a href="<?php echo $listele['dizin_url']; ?>" target="_blank" data-toggle="tooltip" data-placement="bottom" title="<?php echo $listele['dizin_aciklama']; ?>">
                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             <?php echo $listele['dizin_baslik']; ?>
                         </a>
                     </li>
-                    <?php } ?>
+					<?php }} ?>
                 </ul>
             </div>
             <!--#Son Eklenenler -->
