@@ -69,12 +69,6 @@ Class Site extends CI_Controller{
         $this->load->view('Template/Static/footer_view');
 
     }
-	
-	public function Deneme(){
-
-		echo 'deneme';
-	}	
-
 
 
 }
